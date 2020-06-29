@@ -1,0 +1,15 @@
+{
+    "name": "padrao-init",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "installserv": "npm install concurrently lite-server",
+        "watch": "tsc -w",
+        "server": "lite-server --baseDir=app",
+        "start": "concurrently \"npm run watch\" \"npm run server\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
