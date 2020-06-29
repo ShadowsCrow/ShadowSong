@@ -1,0 +1,7 @@
+/*Este arquivo tem o objetivo de incurtar o processo base de desenvolvimento TYPESCRIPT, com tsconfig.json e package.json configurado com lite-server e concurrently: 
+
+        "scripts": {"installserv": "npm install concurrently lite-server",
+        "watch": "tsc -w",
+        "server": "lite-server --baseDir=app",
+        "start": "concurrently \"npm run watch\" \"npm run server\""}
+*/
