@@ -10,6 +10,6 @@
         "start": "concurrently \"npm run watch\" \"npm run server\""
     },
     "keywords": [],
-    "author": "",
+    "author": "ShadowsCrow",
     "license": "ISC"
 }
