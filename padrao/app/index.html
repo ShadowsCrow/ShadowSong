@@ -5,10 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="css/index.css"></link>
 </head>
 
 <body>
-
+    <form>
+        <h1>Shadow Song - Lestras de musicas</h1>
+        <label for="artist">Artista</label><br>
+        <input type="text" id="artist"><br>
+        <label for="song">Musica</label><br>
+        <input type="text" id="song"><br>
+        <input type="button" value="Search" id="btns">
+    </form>
+    <div id="text"> </div>
+    <button id="btnL" class="some">Tradução</button>
+    <script src="recursos/jquery.min.js"></script>
+    <script src="js/letra.js"></script>
+    <script src="js/traducao.js"></script>
 </body>
 
 </html>

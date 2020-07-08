@@ -11,5 +11,11 @@
     },
     "keywords": [],
     "author": "ShadowsCrow",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "@types/jquery": "^3.5.0",
+        "concurrently": "^5.2.0",
+        "jquery": "^3.5.1",
+        "lite-server": "^2.5.4"
+    }
 }
